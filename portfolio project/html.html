@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f8;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background: #6C63FF;
+            /* deep purple */
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #FFD700;
+            /* subtle gold */
+        }
+
+        /* Hero Section */
+        .hero {
+            background: #8C7AE6;
+            /* lighter purple */
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+        }
+
+        /* About Section */
+        .about {
+            padding: 40px 20px;
+            text-align: center;
+            background: #EDE9FE;
+            /* very light purple */
+        }
+
+        .about h2 {
+            margin-bottom: 15px;
+            color: #6C63FF;
+        }
+
+        .about p {
+            max-width: 600px;
+            margin: auto;
+            font-size: 1em;
+            line-height: 1.6;
+        }
+
+        /* Skills Section */
+        .skills {
+            padding: 40px 20px;
+            text-align: center;
+            background: #fff;
+        }
+
+        .skills h2 {
+            margin-bottom: 15px;
+            color: #6C63FF;
+        }
+
+        .skill-list span {
+            display: inline-block;
+            background: #6C63FF;
+            color: white;
+            padding: 8px 12px;
+            margin: 5px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            transition: 0.3s;
+        }
+
+        .skill-list span:hover {
+            background: #574fd6;
+            /* slightly darker on hover */
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 40px 20px;
+            text-align: center;
+            background: #8C7AE6;
+            color: white;
+        }
+
+        .contact a {
+            color: #FFD700;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 10px;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            background: #6C63FF;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        /* Responsive */
+        @media(max-width:768px) {
+            .hero h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#skills">My skills</a>
+            <a href="#contact">Contact me</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h1>Hi, I'm Devesh Chandra Gupta</h1>
+        <p>Aspiring coder & Student</p>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>Hello! im devesh and as for now im a learner not a pro in anything, just learning smth new daily, on a journy to find myself.
+            I am passionate about codinng altho its a long way to go but i will get there someday.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <div class="skill-list">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Java</span>
+            <span>Coding</span>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="#">deveshshaymgupta@gmail.com</a></p>
+        <p>Phone: +9720321445 (dont call i aint picking up)</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 Devesh Gupta. All rights reserved.
+    </footer>
+
+</body>
+
+</html>
